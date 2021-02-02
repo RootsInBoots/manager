@@ -2,6 +2,8 @@ package com.li.entity;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 /**
  * @author fuxin_li
  * @version 1.0
@@ -10,7 +12,9 @@ import lombok.Data;
 @Data
 public class DemoEntity {
 
-    public String name;
+    private String name;
 
-    public Integer age;
+    private Integer age;
+
+    private BigDecimal salary;
 }
