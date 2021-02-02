@@ -24,6 +24,8 @@ public class TestDependency {
 
         String text = "test";
 
+        System.out.println("bingo");
+
         System.out.println("结果是:"+demoEntity.toString());
     }
 }
