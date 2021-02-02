@@ -12,9 +12,20 @@ import java.math.BigDecimal;
 @Data
 public class DemoEntity {
 
+    /**
+     *   姓名
+     */
     private String name;
 
+    /**
+     * 年龄
+     */
     private Integer age;
 
+    /**
+     * 薪资
+     */
     private BigDecimal salary;
+
+
 }
